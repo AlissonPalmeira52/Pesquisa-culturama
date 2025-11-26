@@ -155,7 +155,20 @@
                 <input type="textarea" name="userComment" id="Comment" placeholder="Escreva aqui..." style="width: 25em; height: 10em;">
             </fieldset>
 
+            <fieldset>
+                <legend>Cofirmações</legend>
+
+                <input type="checkbox" name="userLgpd" id="userLgpdTerm" value="accepted" required>
+                <label for="userLgpdTerm">Eu aceito participar da pesquisa</label>
+                <br>
+
+                <input type="checkbox" name="userGetResult" id="getResult" value="accepted">
+                <label for="getResult">Desejo receber o resultado por email</label>
+            </fieldset>
+
             <button type="submit">Enviar</button>
+            <button type="reset">Limpar</button>
+
        </form> 
     </section>
 
